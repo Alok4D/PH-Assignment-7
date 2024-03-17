@@ -22,7 +22,7 @@ const BookMark = ({button, cookHandle}) => {
                 </div>
 
                 {
-                    button.map((item) => <Food cookHandle={cookHandle} key={button.id} item={item}></Food>)
+                    button.map((item, index) => <Food cookHandle={cookHandle} key={button.id} item={item} index={index}></Food>)
                 }
 
         </div>

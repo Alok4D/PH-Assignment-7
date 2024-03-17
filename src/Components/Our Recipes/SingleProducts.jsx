@@ -1,9 +1,4 @@
-// 
-
-
-
 const SingleProducts = ({ card, handleCart }) => {
-    // console.log(handleCart);
   const {image, name, description, time, ingredients, caloric} = card;
   return (
    
@@ -21,7 +16,7 @@ const SingleProducts = ({ card, handleCart }) => {
             <h2>Ingredients: {ingredients.length}</h2>
             <p className="pt-2 mb-2">
               {
-                ingredients.map(cardList => <li>{cardList}</li>)
+                ingredients.map(cardList => <li key={cardList.id}>{cardList}</li>)
               }  
             </p>
             <hr />

@@ -2,12 +2,8 @@ import PropTypes from 'prop-types'
 import AddCooking from './AddCooking';
 
 const Cooking = ({cooking}) => {
-    
-    // // const {name} = Cooking; 
-    // console.log(Cooking)
-    
     return (
-        <div>
+        <div className='shadow-xl border rounded-[20px] mt-2'>
         <div className=" text-center w-[490px] ">
             <h1 className="text-[24px] pt-8 pb-2 font-bold">Currently cooking: <span>{cooking.length}</span></h1>
         </div>
@@ -24,7 +20,7 @@ const Cooking = ({cooking}) => {
             </div>
         </div>
         {
-            cooking.map(data => <AddCooking  key={cooking.id} data={data}></AddCooking>)
+            cooking.map((data, index) => <AddCooking  key={cooking.id} data={data} index={index}></AddCooking>)
         }
         
     </div>

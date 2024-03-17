@@ -42,8 +42,6 @@ const Recipes = () => {
         }
         
     }
-    // console.log(button);
-
     
 
     return (
@@ -51,7 +49,7 @@ const Recipes = () => {
 
             <div className="recipes-details text-center mt-20">
                 <h2 className="text-[40px] text-[#150B2B]">Our Recipes</h2>
-                <p className="text-[16px] text-[#3f3f42] mt-4">Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget <br /> urna volutpat curabitur elementum mauris aenean neque. </p>
+                <p className="text-[16px] text-[#3f3f42] mt-4">Title: Flavorful Delights: Explore Our Recipes Welcome to Flavorful Delights, your ultimate destination for culinary inspiration! our collection of recipes is here to <br /> tantalize your taste buds and ignite your passion for cooking.</p>
                 </div>
 
         <div className="flex justify-between gap-5">

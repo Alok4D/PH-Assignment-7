@@ -4,16 +4,19 @@ import './Header.css'
 const Header = () => {
   return (
     // header-Section......<<<<>>>>>>>
-    <div className="w-[90%] m-auto flex justify-between mt-12">
-    <h1>Recipe Calories</h1>
-    <ul className="gap-12 flex justify-between">
+    <div className="w-[90%] m-auto flex justify-between mt-12 items-center">
+    <h1 className='text-[#150B2B] text-[32px]'>Recipe Calories</h1>
+    <ul className="gap-12 flex justify-between  cursor-pointer text-[16px] text-[rgba(21, 11, 43, 0.70)]">
         <li><a href="#"></a>Home</li>
         <li><a href="#"></a>Recipes</li>
         <li><a href="#"></a>About</li>
         <li><a href="#"></a>Search</li>
     </ul>
-    <div className="flex">
-        <input placeholder="Search" className="text-center border rounded-sm" type="text" />
+    <div className="flex justify-center items-center gap-3">
+        <div className='flex gap-1 p-2 border bg-slate-300 rounded-2xl'>
+            <img src="../../public/search.png" alt="" />
+            <input className='bg-slate-300' type="text" placeholder='Search' />
+        </div>
         <h1 className="bg-[#0BE58A] text-[#150B2B] h-8 w-8 rounded-full">
             <a href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
@@ -23,10 +26,6 @@ const Header = () => {
         </h1>
     </div>
 </div>
-
-// Banner-Section...<<<<<<>>>>>>
-
-
   );
 };
 

@@ -1,0 +1,92 @@
+[
+    { "id" : 1,
+      "name": "Margherita Pizza",
+      "description": "Classic Margherita Pizza with fresh basil leaves",
+      "time": "30 minutes",
+      "caloric": 850,
+      "image": "https://st2.depositphotos.com/1020618/8867/i/450/depositphotos_88671260-stock-photo-close-up-of-home-made.jpg",
+      "ingredients": [
+        "1 pizza dough",
+        "1/2 cup tomato sauce",
+        "1 cup mozzarella cheese",
+        "Fresh basil leaves"
+      ]
+    },
+    { "id": 2,
+      "name": "California Roll Sushi",
+      "description": "A popular sushi roll filled with imitation crab and avocado",
+      "time": "45 minutes",
+      "caloric": 620,
+      "image": "https://img.freepik.com/free-photo/fresh-pasta-with-hearty-bolognese-parmesan-cheese-generated-by-ai_188544-9469.jpg",
+      "ingredients": [
+        "2 cups sushi rice",
+        "4 sheets nori",
+        "1/2 lb imitation crab",
+        "1 avocado",
+        "1 cucumber"
+      ]
+    },
+    { "id": 3,
+      "name": "Classic Beef Burger",
+      "description": "Juicy beef patty served with fresh vegetables on a bun",
+      "time": "20 minutes",
+      "caloric": 720,
+      "image": "https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg.transform/576x300/image.jpg",
+      "ingredients": [
+        "1 lb ground beef",
+        "4 hamburger buns",
+        "Lettuce",
+        "Tomato slices",
+        "Onion slices",
+        "Cheese slices"
+      ]
+    },
+    { "id": 4,
+      "name": "Chicken Pad Thai",
+      "description": "Stir-fried rice noodles with chicken, peanuts, and bean sprouts",
+      "time": "35 minutes",
+      "caloric": 550,
+      "image": "https://img.freepik.com/free-photo/freshly-italian-pizza-with-mozzarella-cheese-slice-generative-ai_188544-12347.jpg",
+      "ingredients": [
+        "8 oz rice noodles",
+        "2 chicken breasts",
+        "2 eggs",
+        "1 cup bean sprouts",
+        "1/2 cup peanuts",
+        "3 cloves garlic",
+        "3 green onions"
+      ]
+    },
+    { "id": 5,
+      "name": "Beef Tacos",
+      "description": "Delicious tacos filled with seasoned ground beef and fresh toppings",
+      "time": "25 minutes",
+      "caloric": 680,
+      "image": "https://blog.dineout-cdn.co.in/blog/wp-content/uploads/2019/10/Blog-10-1030x538.jpg",
+      "ingredients": [
+        "1 lb ground beef",
+        "8 small flour tortillas",
+        "Lettuce",
+        "Tomato",
+        "Shredded cheese",
+        "Salsa"
+      ]
+    },
+    { "id": 6,
+      "name": "Spicy Tuna Sushi Burrito",
+      "description": "A fusion of sushi and burrito, filled with spicy tuna and fresh veggies",
+      "time": "40 minutes",
+      "caloric": 730,
+      "image": "https://i0.wp.com/swadishta.de/wp-content/uploads/2021/01/Thali.jpg?fit=1200%2C800&ssl=1",
+      "ingredients": [
+        "2 cups sushi rice",
+        "4 sheets nori",
+        "1/2 lb sushi-grade tuna",
+        "1/4 cup spicy mayo",
+        "1 avocado",
+        "1 cucumber",
+        "1 carrot",
+        "Sesame seeds"
+      ]
+    }
+]

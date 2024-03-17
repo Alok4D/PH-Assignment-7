@@ -1,15 +1,15 @@
 const SingleProducts = ({ card, handleCart }) => {
-    console.log(handleCart);
+    // console.log(handleCart);
   const {image, name, description, time, ingredients, caloric} = card;
   return (
    
       <div className="card  bg-base-100 shadow-xl rounded-xl border mb-2 p-[24px]">
-        <figure className="">
+        <figure>
           <img  src={image} alt="Food-Image" className="rounded-xl h-[250px] w-full object-cover"/>
         </figure>
-        <div className="card-body">
+        <div className="card-body p-8">
           <div className="card-details">
-            <h2 className="card-title mt-2 mb-1 text-[20px]">{name}</h2>
+            <h2 className="card-title mt-2 mb-1 text-[22px]">{name}</h2>
             <p className="text-[16px]  mb-2">{description}</p>
             <hr />
           </div>
@@ -24,11 +24,11 @@ const SingleProducts = ({ card, handleCart }) => {
           </div>
           <div className="flex gap-14 mt-3 mb-3">
             <div className="flex  gap-1">
-            <img src="../../../public/agun.png" alt="" />
+            <img src="time-logo.png" alt="" />
               <p>{time}</p>
             </div>
             <div className="flex gap-1">
-            <img src="../../../public/Frame.png" alt="" />
+            <img src="Frame.png" alt="" />
               <p>{caloric} calories</p>
             </div>
           </div>

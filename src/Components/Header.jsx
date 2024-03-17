@@ -14,7 +14,7 @@ const Header = () => {
     </ul>
     <div className="flex justify-center items-center gap-3">
         <div className='flex gap-1 p-2 border bg-slate-300 rounded-2xl'>
-            <img src="../../public/search.png" alt="" />
+            <img src="search.png" alt="" />
             <input className='bg-slate-300' type="text" placeholder='Search' />
         </div>
         <h1 className="bg-[#0BE58A] text-[#150B2B] h-8 w-8 rounded-full">

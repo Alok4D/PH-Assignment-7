@@ -4,11 +4,11 @@ import Recipes from './Components/Our Recipes/Recipes';
 
 function App() {
   return (
-    <>
+  <>
    <Header></Header>
   <Banner></Banner>
   <Recipes></Recipes> 
-    </>
+  </>
   )
 }
 

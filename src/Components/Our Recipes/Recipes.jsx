@@ -1,3 +1,8 @@
+//Toast Warning.........
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 import { useEffect } from "react";
 import { useState } from "react";
 import SingleProducts from "./SingleProducts";
@@ -19,13 +24,23 @@ const Recipes = () => {
     const [cooking, setCooking] = useState([]);
 
     const cookHandle = (data) =>{
+        const newButton = button.filter(recipe => recipe.id != data.id)
+        setButton(newButton);
         const courentCook = [...cooking, data]
         setCooking(courentCook);
     }
 
     const handleCart = (p) => {
-        const newButton = [...button, p]
-        setButton(newButton);
+        const isExist = button.find(recipe =>recipe.id == p.id);
+        if(!isExist) {
+           
+            const newButton = [...button, p]
+            setButton(newButton);
+        }
+        else{
+            toast.error('item already added');
+        }
+        
     }
     // console.log(button);
 
@@ -55,7 +70,7 @@ const Recipes = () => {
 
          
         </div>
-
+        <ToastContainer/>
         </div>
     );
 };

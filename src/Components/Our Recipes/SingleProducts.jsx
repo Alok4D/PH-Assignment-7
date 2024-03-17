@@ -1,3 +1,7 @@
+// 
+
+
+
 const SingleProducts = ({ card, handleCart }) => {
     // console.log(handleCart);
   const {image, name, description, time, ingredients, caloric} = card;
@@ -34,6 +38,7 @@ const SingleProducts = ({ card, handleCart }) => {
           </div>
           <div className="card-actions">
             <button onClick={(e) => handleCart(card)} className="text-[#150B2B] text-[18px] bg-[#0BE58A] px-[24px] py-[13px] rounded-[50px]">Want to Cook</button>
+           
           </div>
         </div>
       </div>

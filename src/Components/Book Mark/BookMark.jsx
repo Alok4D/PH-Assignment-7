@@ -16,8 +16,6 @@ const BookMark = ({button, cookHandle}) => {
                         <td className="pl-20">Calories</td>
                     </th>
                 </table>
-
-
                 <div className="w-[350px] pl-14 pb-6">
                 <hr/>
             
@@ -26,24 +24,6 @@ const BookMark = ({button, cookHandle}) => {
                 {
                     button.map((item) => <Food cookHandle={cookHandle} key={button.id} item={item}></Food>)
                 }
-                 <div className=" text-center w-[400px] ">
-                <h1 className="text-[24px] pt-8 pb-2 font-bold">Currently cooking: <span>02</span></h1>
-             </div>
-                <table className="m-3 w-96 ">
-                    <th>
-                        <td className="pl-10">Name</td>
-                        <td className="pl-20">Time</td>
-                        <td className="pl-20">Calories</td>
-                    </th>
-                </table>
-
-
-                <div className="w-[350px] pl-14 pb-6">
-                <hr/>
-            
-                </div>
-
-
 
         </div>
         </div>

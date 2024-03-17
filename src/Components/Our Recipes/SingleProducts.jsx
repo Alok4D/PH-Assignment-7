@@ -8,12 +8,12 @@ const SingleProducts = ({ card, handleCart }) => {
         </figure>
         <div className="card-body p-8">
           <div className="card-details">
-            <h2 className="card-title mt-2 mb-1 text-[22px]">{name}</h2>
-            <p className="text-[16px]  mb-2">{description}</p>
+            <h2 className="card-title  mb-1 text-[22px]">{name}</h2>
+            <p className="text-[16px]  mb-[10px]">{description}</p>
             <hr />
           </div>
           <div className="card-item">
-            <h2>Ingredients: {ingredients.length}</h2>
+            <h2 className="text-[18px] mt-4">Ingredients: {ingredients.length}</h2>
             <p className="pt-2 mb-2">
               {
                 ingredients.map(cardList => <li key={cardList.id}>{cardList}</li>)

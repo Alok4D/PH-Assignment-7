@@ -1,6 +1,6 @@
 [
     { "id" : 1,
-      "name": "Margherita Pizza",
+      "name": "Margherita Burger",
       "description": "Classic Margherita Pizza with fresh basil leaves",
       "time": "30 minutes",
       "caloric": 850,
@@ -13,7 +13,7 @@
       ]
     },
     { "id": 2,
-      "name": "California Roll Sushi",
+      "name": "California Noodles",
       "description": "A popular sushi roll filled with imitation crab and avocado",
       "time": "45 minutes",
       "caloric": 620,
@@ -27,7 +27,7 @@
       ]
     },
     { "id": 3,
-      "name": "Classic Beef Burger",
+      "name": "Classic Beef Pizza",
       "description": "Juicy beef patty served with fresh vegetables on a bun",
       "time": "20 minutes",
       "caloric": 720,
@@ -73,7 +73,7 @@
       ]
     },
     { "id": 6,
-      "name": "Spicy Tuna Sushi Burrito",
+      "name": "Spicy Tuna Sushi",
       "description": "A fusion of sushi and burrito, filled with spicy tuna and fresh veggies",
       "time": "40 minutes",
       "caloric": 730,

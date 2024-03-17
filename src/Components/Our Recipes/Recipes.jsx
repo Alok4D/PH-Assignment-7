@@ -49,7 +49,7 @@ const Recipes = () => {
 
             <div className="recipes-details text-center mt-20">
                 <h2 className="text-[40px] text-[#150B2B]">Our Recipes</h2>
-                <p className="text-[16px] text-[#3f3f42] mt-4">Title: Flavorful Delights: Explore Our Recipes Welcome to Flavorful Delights, your ultimate destination for culinary inspiration! our collection of recipes is here to <br /> tantalize your taste buds and ignite your passion for cooking.</p>
+                <p className="text-[16px] text-[#3f3f42] mt-4">Flavorful Delights: Explore Our Recipes Welcome to Flavorful Delights, your ultimate destination for culinary inspiration! our collection of recipes is here to <br /> tantalize your taste buds and ignite your passion for cooking.</p>
                 </div>
 
         <div className="flex justify-between gap-5">

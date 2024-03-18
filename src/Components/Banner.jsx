@@ -4,7 +4,7 @@ import Background from '../../public/banner-photo.jpeg'
 const Banner = () => {
     return (
         <div>
-            <div className=' text-white mt-12 w-[90%] mx-auto'>
+            <div className=' text-white mt-12 w-[1600px] mx-auto'>
                 <div className='flex justify-center items-center min-h-screen rounded-3xl' style={{background: `url(${Background})`}}>
 
                

@@ -3,13 +3,13 @@ import AddCooking from './AddCooking';
 
 const Cooking = ({cooking}) => {
     return (
-        <div className='shadow-xl border rounded-[20px] mt-2'>
+        <div className='shadow-xl border rounded-[20px] mt-2 pb-4'>
         <div className=" text-center w-[490px] ">
-            <h1 className="text-[24px] pt-8 pb-2 font-bold">Currently cooking: <span>{cooking.length}</span></h1>
+            <h1 className="text-[24px] pt-8 pb-[16px] font-bold">Currently cooking : <span>{cooking.length}</span></h1>
             <div className='border w-[80%] mx-auto'></div>
         </div>
         <div>
-            <table className=" text-[#878787] w-[80%] mx-auto ">
+            <table className=" text-[#878787] w-[80%] mx-auto mt-3">
                     <th>
                         <td className="pl-10">Name</td>
                         <td className="pl-20">Time</td>

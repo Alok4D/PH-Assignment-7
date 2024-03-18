@@ -1,6 +1,3 @@
-
-
-
 const Header = () => {
   return (
     <div className="w-[90%] m-auto flex justify-between mt-12 items-center">
@@ -27,5 +24,4 @@ const Header = () => {
 </div>
   );
 };
-
 export default Header;
